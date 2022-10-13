@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 1.125rem;
+
+}
+.small{
+    font-size: 0.625rem;
+}
+.gray{
+    color: #6B7082;
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: white;
+
+    width: 20rem;
+    height: 23rem;
+    border-radius: 1rem;
+}
+
+.pattern-card{
+    width: 20rem;
+    height: 8.75rem;
+}
+
+#profile-icon{
+    margin-top: calc(-50% + 6rem);
+    width: 6rem;
+    height: 6rem;
+    border: 0.3rem solid white;
+    border-radius: 50%;
+}
+
+.credentials{
+    width: 8.4rem;
+    height: 3rem;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+
+    margin-bottom: 1.75rem;
+}
+
+.credentials :last-child{
+    font-size: 0.875rem;
+    margin-top: 0.875rem;
+}
+
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:#E8E9EC;
+}
+
+.block{
+    width: 13.8rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.followers,.likes,.photos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+@media screen and (max-width:375px) {
+}
