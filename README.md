@@ -24,7 +24,7 @@
 ### Links
 
 - Solution URL: [GitHub](https://github.com/gabadadzeluca/profile-card-component-main)
-- Live Site URL: [Live Page](https://your-live-site-url.com)
+- Live Site URL: [Live Page](https://gabadadzeluca.github.io/profile-card-component-main/)
 
 ## My process
 
