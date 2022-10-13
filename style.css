@@ -3,7 +3,14 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 10%;
+    overflow: hidden;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top -100vh right 50vw, left 60vw top 50vh;
 }
+
+
 
 .bold{
     font-weight: 700;
@@ -84,5 +91,17 @@ body{
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:1440px) {
+    .card{
+        width: 21.875rem;
+        height: 23.375rem;
+    } 
+    .pattern-card{
+        width: 100%;
+    }
+    #profile-icon{
+        margin-top: calc(-50% + 7rem)
+    }
 }
+
+
